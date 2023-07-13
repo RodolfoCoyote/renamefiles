@@ -1,0 +1,5 @@
+C:\Users\rodoo\OneDrive\Escritorio\ProyectoUno.exe
+C:\Users\rodoo\OneDrive\Escritorio\ProyectoUno.dll
+C:\Users\rodoo\OneDrive\Escritorio\ProyectoUno.deps.json
+C:\Users\rodoo\OneDrive\Escritorio\ProyectoUno.runtimeconfig.json
+C:\Users\rodoo\OneDrive\Escritorio\ProyectoUno.pdb

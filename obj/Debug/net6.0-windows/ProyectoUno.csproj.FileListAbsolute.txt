@@ -1,0 +1,17 @@
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\bin\Debug\net6.0-windows\ProyectoUno.exe
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\bin\Debug\net6.0-windows\ProyectoUno.deps.json
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\bin\Debug\net6.0-windows\ProyectoUno.runtimeconfig.json
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\bin\Debug\net6.0-windows\ProyectoUno.dll
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\bin\Debug\net6.0-windows\ProyectoUno.pdb
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\obj\Debug\net6.0-windows\ProyectoUno.csproj.AssemblyReference.cache
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\obj\Debug\net6.0-windows\ProyectoUno.Init.resources
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\obj\Debug\net6.0-windows\ProyectoUno.csproj.GenerateResource.cache
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\obj\Debug\net6.0-windows\ProyectoUno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\obj\Debug\net6.0-windows\ProyectoUno.AssemblyInfoInputs.cache
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\obj\Debug\net6.0-windows\ProyectoUno.AssemblyInfo.cs
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\obj\Debug\net6.0-windows\ProyectoUno.csproj.CoreCompileInputs.cache
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\obj\Debug\net6.0-windows\ProyectoUno.dll
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\obj\Debug\net6.0-windows\refint\ProyectoUno.dll
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\obj\Debug\net6.0-windows\ProyectoUno.pdb
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\obj\Debug\net6.0-windows\ProyectoUno.genruntimeconfig.cache
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\obj\Debug\net6.0-windows\ref\ProyectoUno.dll
