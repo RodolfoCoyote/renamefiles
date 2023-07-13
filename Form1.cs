@@ -75,7 +75,15 @@ namespace ProyectoUno
             {
                 textBox3.Text = FBD1.SelectedPath;
                 listBox1.Items.Clear();
-                string[] files = Directory.GetFiles(FBD1.SelectedPath, "*", SearchOption.AllDirectories);
+                string[] files;
+                if (checkBox1.Checked)
+                {
+                    files = Directory.GetFiles(FBD1.SelectedPath, "*", SearchOption.AllDirectories);
+                }
+                else
+                {
+                    files = Directory.GetFiles(FBD1.SelectedPath, "*");
+                }                
                 foreach (string file in files)
                 {
                     string full_path = Path.GetFullPath(file);
@@ -154,7 +162,7 @@ namespace ProyectoUno
                         string replace = textBox2.Text;
 
                         string new_name_file = str.Replace(search, replace);
-
+                        
                         search = textBox1.Text.ToLower();
                         replace = textBox2.Text;
 
@@ -172,10 +180,10 @@ namespace ProyectoUno
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox1.Checked)
-                MessageBox.Show("checkeado");
-            else
-                MessageBox.Show("descheckeado");
+            listBox1.Items.Clear();
+            listBox2.Items.Clear();
+            textBox3.Text = "";
+
         }
     }
 }
