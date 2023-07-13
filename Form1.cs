@@ -41,8 +41,8 @@ namespace ProyectoUno
                 {
                     for (int i = 0; i < total_items; i++)
                     {
-                        var old_file_name = this_path + "\\" + list1[i];
-                        var new_file_name = this_path + "\\" + list2[i];
+                        var old_file_name = list1[i];
+                        var new_file_name = list2[i];
                         System.IO.File.Move(old_file_name, new_file_name);
 
                     }
@@ -75,25 +75,31 @@ namespace ProyectoUno
             {
                 textBox3.Text = FBD1.SelectedPath;
                 listBox1.Items.Clear();
-                string[] files = Directory.GetFiles(FBD1.SelectedPath);
+                string[] files = Directory.GetFiles(FBD1.SelectedPath, "*", SearchOption.AllDirectories);
                 foreach (string file in files)
                 {
+                    string full_path = Path.GetFullPath(file);
 
-                    listBox1.Items.Add(Path.GetFileName(file));
+                    listBox1.Items.Add(Path.GetFullPath(file));
 
                 }
 
                 listBox2.Items.Clear();
-                string[] files_new = Directory.GetFiles(FBD1.SelectedPath);
+                string[] files_new = Directory.GetFiles(FBD1.SelectedPath, "*", SearchOption.AllDirectories);
                 foreach (string file in files_new)
                 {
-                    string str = Path.GetFileName(file);
+                    string str = Path.GetFullPath(file);
                     if (string.IsNullOrEmpty(textBox1.Text) == false && string.IsNullOrEmpty(textBox2.Text) == false)
                     {
-                        string search = textBox1.Text;
+                        string search = textBox1.Text.ToUpper();
                         string replace = textBox2.Text;
 
                         string new_name_file = str.Replace(search, replace);
+
+                        search = textBox1.Text.ToLower();
+                        replace = textBox2.Text;
+
+                        new_name_file = new_name_file.Replace(search, replace);
 
                         listBox2.Items.Add(new_name_file);
 
@@ -122,6 +128,11 @@ namespace ProyectoUno
 
                         string new_name_file = str.Replace(search, replace);
 
+
+                        search = textBox1.Text.ToLower();
+                        replace = textBox2.Text;
+
+                        new_name_file = new_name_file.Replace(search, replace);
                         listBox2.Items.Add(new_name_file);
                     }
                 }
@@ -144,6 +155,10 @@ namespace ProyectoUno
 
                         string new_name_file = str.Replace(search, replace);
 
+                        search = textBox1.Text.ToLower();
+                        replace = textBox2.Text;
+
+                        new_name_file = new_name_file.Replace(search, replace);
                         listBox2.Items.Add(new_name_file);
                     }
                 }
@@ -153,6 +168,14 @@ namespace ProyectoUno
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
 
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+                MessageBox.Show("checkeado");
+            else
+                MessageBox.Show("descheckeado");
         }
     }
 }

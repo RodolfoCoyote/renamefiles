@@ -39,6 +39,7 @@
             listBox2 = new ListBox();
             label4 = new Label();
             label5 = new Label();
+            checkBox1 = new CheckBox();
             SuspendLayout();
             // 
             // label2
@@ -54,7 +55,7 @@
             // textBox1
             // 
             textBox1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(463, 21);
+            textBox1.Location = new Point(472, 21);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(222, 26);
             textBox1.TabIndex = 2;
@@ -64,7 +65,7 @@
             // textBox2
             // 
             textBox2.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox2.Location = new Point(463, 62);
+            textBox2.Location = new Point(472, 66);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(222, 26);
             textBox2.TabIndex = 4;
@@ -82,7 +83,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(302, 446);
+            button1.Location = new Point(361, 558);
             button1.Name = "button1";
             button1.Size = new Size(129, 43);
             button1.TabIndex = 5;
@@ -92,7 +93,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(21, 114);
+            button2.Location = new Point(31, 107);
             button2.Name = "button2";
             button2.Size = new Size(106, 43);
             button2.TabIndex = 7;
@@ -103,38 +104,40 @@
             // textBox3
             // 
             textBox3.Enabled = false;
-            textBox3.Location = new Point(133, 125);
+            textBox3.Location = new Point(168, 125);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(552, 23);
+            textBox3.Size = new Size(666, 23);
             textBox3.TabIndex = 8;
             // 
             // listBox1
             // 
             listBox1.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             listBox1.FormattingEnabled = true;
+            listBox1.HorizontalScrollbar = true;
             listBox1.ItemHeight = 17;
-            listBox1.Location = new Point(31, 205);
+            listBox1.Location = new Point(31, 202);
             listBox1.Name = "listBox1";
             listBox1.SelectionMode = SelectionMode.None;
-            listBox1.Size = new Size(329, 225);
+            listBox1.Size = new Size(803, 157);
             listBox1.TabIndex = 9;
             // 
             // listBox2
             // 
             listBox2.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
             listBox2.FormattingEnabled = true;
+            listBox2.HorizontalScrollbar = true;
             listBox2.ItemHeight = 17;
-            listBox2.Location = new Point(375, 205);
+            listBox2.Location = new Point(31, 387);
             listBox2.Name = "listBox2";
             listBox2.SelectionMode = SelectionMode.None;
-            listBox2.Size = new Size(310, 225);
+            listBox2.Size = new Size(803, 157);
             listBox2.TabIndex = 10;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(122, 183);
+            label4.Location = new Point(361, 183);
             label4.Name = "label4";
             label4.Size = new Size(124, 16);
             label4.TabIndex = 11;
@@ -144,17 +147,29 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Arial", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(463, 183);
+            label5.Location = new Point(361, 367);
             label5.Name = "label5";
             label5.Size = new Size(114, 16);
             label5.TabIndex = 12;
             label5.Text = "Nombres futuros:";
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(31, 156);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(134, 19);
+            checkBox1.TabIndex = 13;
+            checkBox1.Text = "Agregar subcarpetas";
+            checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
             // Init
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(716, 501);
+            ClientSize = new Size(846, 617);
+            Controls.Add(checkBox1);
             Controls.Add(label5);
             Controls.Add(label4);
             Controls.Add(listBox2);
@@ -189,5 +204,6 @@
         private ListBox listBox2;
         private Label label4;
         private Label label5;
+        private CheckBox checkBox1;
     }
 }
