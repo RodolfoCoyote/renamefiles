@@ -55,7 +55,7 @@ namespace ProyectoUno
                 }
                 else
                 {
-                    this.Close();
+                    this.DialogResult = DialogResult.Cancel;
                 }
 
             }
@@ -75,7 +75,7 @@ namespace ProyectoUno
             {
                 textBox3.Text = FBD1.SelectedPath;
                 listBox1.Items.Clear();
-                string[] files = Directory.GetFiles(FBD1.SelectedPath, "*.*", SearchOption.AllDirectories);
+                string[] files = Directory.GetFiles(FBD1.SelectedPath);
                 foreach (string file in files)
                 {
 
@@ -152,7 +152,7 @@ namespace ProyectoUno
 
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
+
         }
     }
 }
