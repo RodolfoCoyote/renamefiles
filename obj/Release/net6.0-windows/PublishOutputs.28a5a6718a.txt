@@ -1,0 +1,5 @@
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\exes\exe_dos\ProyectoUno.exe
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\exes\exe_dos\ProyectoUno.dll
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\exes\exe_dos\ProyectoUno.deps.json
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\exes\exe_dos\ProyectoUno.runtimeconfig.json
+C:\Users\rodoo\OneDrive\Documentos\Proyectos\Ramon C_Sharp\ProyectoUno\exes\exe_dos\ProyectoUno.pdb
